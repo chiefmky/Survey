@@ -1,0 +1,220 @@
+/* Reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-size: 16px;
+}
+body {
+	background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),
+		url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #f3f3f3;
+	line-height: 1.6;
+	font-family: 'Lato', sans-serif;
+}
+main {
+	width: 100%;
+	margin: 3.125rem auto 0 auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background-color: #2b2b49;
+	max-width: 650px;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: left;
+	padding: 2rem;
+	font-weight: 600;
+	font-size: 1.12rem;
+}
+header {
+	padding: 1rem 0;
+}
+#title {
+	font-size: 2.1rem;
+	font-weight: 800;
+}
+
+#description {
+	font-size: 1.3rem;
+	font-style: italic;
+}
+input,
+select,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: inherit;
+	font-weight: 600;
+	padding: 0.2rem 0.5rem;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#mylabel {
+	margin: 2rem 0 0.5rem;
+}
+#comments {
+	margin-bottom: 2rem;
+}
+
+#submit {
+	background-color: #37af65;
+	color: #f3f3f3;
+	padding: 0.6rem 0;
+	font-size: 1.2rem;
+	border-radius: 0.3rem;
+}
+
+@media (min-width: 576px) {
+	main {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	main {
+		max-width: 720px;
+	}
+}
